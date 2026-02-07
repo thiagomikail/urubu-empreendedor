@@ -57,39 +57,39 @@ export const PERSONAS: Persona[] = [
 
 export const QUESTIONS: Question[] = [
     // Bloco A - Solopreneur
-    { id: 1, text: "Prefiro passar 5 horas automatizando uma tarefa do que delegá-la a alguém.", block: 'solopreneur' },
-    { id: 2, text: "O sucesso para mim é ter controle total sobre meu tempo e agenda, sem prestar contas.", block: 'solopreneur' },
-    { id: 3, text: "Reuniões de alinhamento e síncronas são, na maioria das vezes, obstáculos ao trabalho real.", block: 'solopreneur' },
+    { id: 1, text: "Em trabalhos em grupo, prefiro fazer a parte técnica difícil sozinho do que depender dos outros.", block: 'solopreneur' },
+    { id: 2, text: "Meu sonho é trabalhar remotamente, viajando, sem ter um chefe controlando meu horário.", block: 'solopreneur' },
+    { id: 3, text: "Acho que a maioria das aulas presenciais poderiam ser substituídas por um PDF ou vídeo gravado.", block: 'solopreneur' },
 
     // Bloco B - Visionary
-    { id: 4, text: "Sinto-me confortável quando as pessoas discordam das minhas ideias sobre o futuro.", block: 'visionary' },
-    { id: 5, text: "Prefiro criar algo totalmente novo (do zero) do que melhorar um processo que já existe.", block: 'visionary' },
-    { id: 6, text: "Meu foco principal está em identificar 'verdades' que a maioria do mercado ainda não percebeu.", block: 'visionary' },
+    { id: 4, text: "Gosto de propor projetos ou TCCs que os professores acham 'arriscados demais' ou 'impossíveis'.", block: 'visionary' },
+    { id: 5, text: "Prefiro criar uma Startup do zero do que entrar em um programa de Trainee concorrido.", block: 'visionary' },
+    { id: 6, text: "Tenho facilidade em ver como tecnologias emergentes (IA, Blockchain) vão mudar meu curso.", block: 'visionary' },
 
     // Bloco C - Craftsman
-    { id: 7, text: "Sinto frustração quando sou obrigado a gerir pessoas em vez de executar o trabalho técnico.", block: 'craftsman' },
-    { id: 8, text: "A qualidade técnica e a 'arte' do que entrego são mais importantes do que prazos agressivos.", block: 'craftsman' },
-    { id: 9, text: "Quero ser reconhecido como a maior autoridade técnica ou criativa na minha especialidade.", block: 'craftsman' },
+    { id: 7, text: "Prefiro passar o dia programando ou no laboratório do que organizando o cronograma do grupo.", block: 'craftsman' },
+    { id: 8, text: "Fico obcecado em deixar meu código ou projeto perfeito, mesmo que isso custe noites de sono.", block: 'craftsman' },
+    { id: 9, text: "Quero ser reconhecido como a referência técnica da minha turma em um assunto específico.", block: 'craftsman' },
 
     // Bloco D - Orchestrator
-    { id: 10, text: "Sinto prazer em organizar processos caóticos e transformá-los em fluxos previsíveis.", block: 'orchestrator' },
-    { id: 11, text: "Minha maior força é pegar algo que já funciona e fazer crescer em escala (10x ou 100x).", block: 'orchestrator' },
-    { id: 12, text: "Prefiro definir métricas, prazos e KPIs do que criar a ideia original do produto.", block: 'orchestrator' },
+    { id: 10, text: "Nos trabalhos em grupo, sou eu quem define prazos, organiza o Drive e cobra as entregas de todo mundo.", block: 'orchestrator' },
+    { id: 11, text: "Tenho prazer em criar planilhas e cronogramas para organizar minha vida acadêmica e financeira.", block: 'orchestrator' },
+    { id: 12, text: "Gosto mais de coordenar a execução de um evento da faculdade do que ter a ideia inicial.", block: 'orchestrator' },
 
     // Bloco E - Connector
-    { id: 13, text: "Prefiro ter participações menores em vários negócios do que focar em apenas uma única empresa.", block: 'connector' },
-    { id: 14, text: "Meu maior ativo profissional é a minha rede de contatos e minha capacidade de unir as pessoas certas.", block: 'connector' },
-    { id: 15, text: "Tenho facilidade em identificar o potencial de um talento antes que ele se torne óbvio para o mercado.", block: 'connector' },
+    { id: 13, text: "Conheço gente de vários cursos e atléticas, e adoro conectar pessoas para criar projetos juntos.", block: 'connector' },
+    { id: 14, text: "Sinto que meu networking vale mais do que minhas notas no final do semestre.", block: 'connector' },
+    { id: 15, text: "Sou bom em convencer pessoas a entrarem nos meus times para hackathons ou projetos de extensão.", block: 'connector' },
 
     // Bloco F - Specialist
-    { id: 16, text: "Valorizo a segurança, os recursos e o prestígio que apenas uma grande organização pode oferecer.", block: 'specialist' },
-    { id: 17, text: "Prefiro um plano de carreira claro e estabilidade financeira a correr riscos empreendedores.", block: 'specialist' },
-    { id: 18, text: "Gosto de navegar pela complexidade política e institucional para realizar projetos de grande escala.", block: 'specialist' },
+    { id: 16, text: "Meu objetivo é entrar em um programa de Trainee de uma grande multinacional e construir carreira.", block: 'specialist' },
+    { id: 17, text: "Prefiro a estabilidade de um bom estágio em empresa grande do que o risco de empreender agora.", block: 'specialist' },
+    { id: 18, text: "Gosto de entender a fundo como funcionam os processos de grandes indústrias ou corporações.", block: 'specialist' },
 
     // Bloco G - Missionary
-    { id: 19, text: "Eu trabalharia com entusiasmo em um projeto pelo qual sou apaixonado, mesmo ganhando menos.", block: 'missionary' },
-    { id: 20, text: "A cultura e o propósito da empresa são os fatores decisivos para eu aceitar um desafio.", block: 'missionary' },
-    { id: 21, text: "Sinto que sou um embaixador da causa da minha empresa, agindo como a 'cola' da equipe.", block: 'missionary' }
+    { id: 19, text: "Prefiro trabalhar em uma Startup ou projeto de impacto social, mesmo ganhando menos que no banco.", block: 'missionary' },
+    { id: 20, text: "Só consigo me dedicar 100% se eu acreditar que o projeto vai ajudar de verdade as pessoas.", block: 'missionary' },
+    { id: 21, text: "Sinto que sou a pessoa que mantem o clima do time lá em cima quando as coisas dão errado.", block: 'missionary' }
 ];
 
 export const SCORING_LABELS = [
