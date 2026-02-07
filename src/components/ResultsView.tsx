@@ -104,21 +104,29 @@ export function ResultsView({ scores, dominantPersonaId, onReset }: ResultsViewP
                 transition={{ delay: 0.6 }}
                 className="bg-gradient-to-r from-purple-900/40 to-blue-900/40 border border-white/10 p-8 rounded-2xl text-center space-y-6"
             >
-                <h3 className="text-2xl font-bold text-white">Próximos Passos</h3>
-                <p className="text-slate-300">
-                    Quer saber como aplicar as forças do {persona.name} no seu negócio atual?
-                </p>
+                <h3 className="text-2xl font-bold text-white mb-2">Próximos Passos</h3>
 
-                <form className="max-w-md mx-auto space-y-4" onSubmit={(e) => e.preventDefault()}>
-                    <input
-                        type="email"
-                        placeholder="Seu melhor e-mail corporativo"
-                        className="w-full px-4 py-3 bg-slate-950/80 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-colors"
-                    />
-                    <button className="w-full bg-white text-slate-900 font-bold py-3 rounded-lg hover:bg-slate-200 transition-colors">
-                        Receber Dossiê Completo
-                    </button>
-                </form>
+                <div className="bg-slate-950/50 rounded-xl p-6 border border-white/10">
+                    <p className="text-lg md:text-xl font-medium text-white mb-2">
+                        Sprint - criação de produtos digitais
+                    </p>
+                    <p className="text-slate-300 mb-4">
+                        Domingos de manhã.
+                    </p>
+                    <div className="mb-6">
+                        <div className="inline-block px-4 py-1.5 bg-purple-500/20 text-purple-200 text-sm rounded-full font-medium border border-purple-500/30 mb-4">
+                            Exclusivo Uai!rrior: R$ 1,00
+                        </div>
+                        <a
+                            href="https://pay.hotmart.com/F104313592D?off=6u97c38p"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block w-full sm:w-auto px-8 py-3 bg-white text-slate-900 font-bold rounded-lg hover:bg-slate-200 transition-colors"
+                        >
+                            Garantir Minha Vaga
+                        </a>
+                    </div>
+                </div>
             </motion.div>
 
             {/* Actions */}
